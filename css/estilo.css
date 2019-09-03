@@ -51,8 +51,7 @@ footer{
 }
 @media(min-width:360px){
     body{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 120px repeat(3,auto) 100px;
+        
         grid-template-areas: "a a"
  "b b" 
 "c d" 
