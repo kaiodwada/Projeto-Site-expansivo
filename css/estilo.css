@@ -53,6 +53,25 @@ footer{
     body{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 120px repeat(3,auto) 100px;
+        grid-template-areas: "a a" "b b" "c d" "e" "f";
+    }
+    header{
+        grid-area:"a";
+    }
+    .corpo{
+        grid-area:"b";
+    }
+    .parceiros{
+     grid-area:"c";   
+    }
+    .parceiros2{
+     grid-area:"d";   
+    }
+    .destaques{
+     grid-area:"e";   
+    }
+    footer{
+     grid-area:"f";   
     }
 }
 @media(min-width:1070px){
