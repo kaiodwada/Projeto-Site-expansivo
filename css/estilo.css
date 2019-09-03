@@ -52,11 +52,11 @@ footer{
 @media(min-width:360px){
     body{
         
-        grid-template-areas: "a a"
- "b b" 
+        grid-template-areas: "a a a"
+ "b b b
 "c d" 
-"e e" 
-"f f";
+"e e e"
+"f f f";
    }
 header{
      grid-area:"a"
