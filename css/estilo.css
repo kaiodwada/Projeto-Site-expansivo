@@ -68,7 +68,7 @@ footer{
 	.corpo {
 		grid-column: 1/ span 2;
 		display:flex;
-		flex-wrap:no-wrap;
+		flex-wrap:nowrap;
 
 	}
 	
