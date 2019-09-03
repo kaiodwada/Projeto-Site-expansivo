@@ -57,10 +57,10 @@ footer{
 "c d" 
 "e e" 
 "f f";
-    }
-    header{
-        grid-area:"a";
-    }
+   }
+header{
+     grid-area:"a"
+}
     .corpo{
         grid-area:"b";
     }
