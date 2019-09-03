@@ -51,12 +51,11 @@ footer{
 }
 @media(min-width:360px){
     body{
-        
-        grid-template-areas: "a a a"
- "b b b
+        grid-template-areas: "a a"
+ "b b"
 "c d" 
-"e e e"
-"f f f";
+"e e"
+"f f";
    }
 header{
      grid-area:"a"
@@ -76,6 +75,10 @@ header{
     footer{
      grid-area:"f";   
     }
+p{
+  height:50%;
+}
+
 }
 @media(min-width:1070px){
     body{
